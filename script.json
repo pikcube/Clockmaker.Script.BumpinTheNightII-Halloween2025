@@ -1,0 +1,203 @@
+[
+  {
+    "id": "_meta",
+    "name": "Bump in The Night II - Halloween 2025",
+    "author": "Q Smith",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "graverobber_halloween2025script",
+      "fearmonger",
+      "revenant_halloween2025script",
+      "godfather",
+      "steward",
+      "nightwatchman",
+      "spy",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "graverobber_halloween2025script",
+      "spirit_halloween2025script",
+      "exorcist",
+      "angel_halloween2025script",
+      "gambler",
+      "necromancer_halloween2025script",
+      "zombuul",
+      "imp",
+      "godfather",
+      "gossip",
+      "skeleton_halloween2025script",
+      "banshee",
+      "ravenkeeper",
+      "ghosthunter_halloween2025script",
+      "undertaker",
+      "fearmonger",
+      "nightwatchman",
+      "spy",
+      "dawn"
+    ]
+  },
+  "steward",
+  {
+    "id": "spirit_halloween2025script",
+    "edition": "",
+    "name": "Spirit",
+    "otherNightReminder": "If the Spirit was executed: The Spirit points to a player, they are drunk until dawn",
+    "otherNight": 15.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Executed",
+      "Drunk"
+    ],
+    "setup": false,
+    "ability": "Each night, if you died by execution, choose a player (different to last night), they are drunk until dawn.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.BumpinTheNightII-Halloween2025/main/token/spirit_halloween2025script/0.png"
+    ]
+  },
+  "undertaker",
+  "gambler",
+  {
+    "id": "angel_halloween2025script",
+    "edition": "",
+    "name": "Angel",
+    "otherNightReminder": "The Angel points to a player: if they died tonight, the angel dies instead. Wake the chosen player, show them the 'This character selected you' card, then show them the Angel token and point to the Angel player",
+    "otherNight": 12.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Protected"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player: If they would die tonight, you die instead and they learn your role.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.BumpinTheNightII-Halloween2025/main/token/angel_halloween2025script/0.png"
+    ]
+  },
+  "exorcist",
+  "gossip",
+  "nightwatchman",
+  "cannibal",
+  "ravenkeeper",
+  {
+    "id": "ghosthunter_halloween2025script",
+    "edition": "",
+    "name": "Ghost Hunter",
+    "otherNightReminder": "If the Ghost Hunter died tonight from the Demon: Point to 3 different players, then show the currently in play Demon Role",
+    "otherNight": 17.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Knows",
+      "Wrong",
+      "Wrong"
+    ],
+    "setup": false,
+    "ability": "If the Demon kills you, you are woken and learn the Demon’s role and 1 of 3 players who could be the Demon",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.BumpinTheNightII-Halloween2025/main/token/ghosthunter_halloween2025script/0.png"
+    ]
+  },
+  "banshee",
+  {
+    "id": "skeleton_halloween2025script",
+    "edition": "",
+    "name": "Skeleton",
+    "otherNightReminder": "If it is Night 2, the Skeleton dies. If no players died the previous day, the Skeleton is resurrected.",
+    "otherNight": 18.0,
+    "team": "townsfolk",
+    "reminders": [
+      "Dead",
+      "Resurrected",
+      "Once"
+    ],
+    "setup": false,
+    "ability": "On night 2, you die. Once you have died: once per game, if nobody died the previous day you are resurrected.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.BumpinTheNightII-Halloween2025/main/token/skeleton_halloween2025script/0.png"
+    ]
+  },
+  "goon",
+  "recluse",
+  "saint",
+  "mutant",
+  "godfather",
+  {
+    "id": "revenant_halloween2025script",
+    "edition": "",
+    "name": "Revenant",
+    "firstNightReminder": "Wake the Revenant, point to the player marked \"Marked\" and show the Revenant their role",
+    "firstNight": 12.0,
+    "team": "minion",
+    "reminders": [
+      "Knows",
+      "Poisoned",
+      "Dead"
+    ],
+    "setup": false,
+    "ability": "You start knowing a townsfolk player's role. When you are executed, whoever nominated you is poisoned and may die at any time.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.BumpinTheNightII-Halloween2025/main/token/revenant_halloween2025script/0.png"
+    ]
+  },
+  {
+    "id": "graverobber_halloween2025script",
+    "edition": "",
+    "name": "Graverobber",
+    "firstNightReminder": "The Graverobber chooses a player: They are poisoned and may register as any character tonight.",
+    "otherNightReminder": "The Graverobber chooses a player: They are poisoned and may register as any character tonight.",
+    "firstNight": 15.0,
+    "otherNight": 4.0,
+    "team": "minion",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "ability": "Each night choose a player: They are poisoned and may register as any character tonight.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.BumpinTheNightII-Halloween2025/main/token/graverobber_halloween2025script/0.png"
+    ]
+  },
+  "spy",
+  "fearmonger",
+  "imp",
+  "zombuul",
+  {
+    "id": "necromancer_halloween2025script",
+    "edition": "",
+    "name": "Necromancer",
+    "otherNightReminder": "The Necromancer may point to a player: that player dies, or The Necromancer can make a clawed hand gesture, then point to a player: that player's ability now works as though they hadn't died",
+    "otherNight": 8.0,
+    "team": "demon",
+    "reminders": [
+      "Dead",
+      "Necromancer"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player: they die. Once per game, choose a dead player: their ability now functions as though they hadn’t died.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.BumpinTheNightII-Halloween2025/main/token/necromancer_halloween2025script/0.png"
+    ]
+  }
+]
